@@ -11,10 +11,17 @@
 
 
 
-  <div class="im">
+  <!-- <div class="im">
       <a href="index.html">
         <img class="ima" src="img/prev.png" alt="">
+        
       </a>
+    </div> -->
+    <div class="back">
+      <a href="index.html" class="image">
+        <img src="img/left-arrow 1.png" alt="">
+      </a>
+      <a href="index.html" class="back_word">артқа</a>
     </div>
     <h1>Баптаулар</h1>
           <label for="sozder">Сөз саны: <span id="sozder-value">10</span></label>
@@ -28,11 +35,9 @@
 
 
 
-  <br><br>
-        <label for="punishment">Punishment mode</label>
-        <input type="checkbox" id="punishment" name="punishment">
+ 
         <br><br>
-        <button id="save" style="background-color: gold; color: black;">Алға</button>
+        <button class="btn" id="save"">Алға</button>
         <script>
         const saveBtn = document.querySelector('#save');
         const sozderInput = document.querySelector('#sozder');
